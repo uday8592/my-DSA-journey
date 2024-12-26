@@ -11,8 +11,11 @@ class Solution {
             }else{
                 bracket.pop();
                 if(bracket.size()>0){
+
+
+                    //
                     sb.append(s.charAt(i));
-                }
+                } 
             }
         }
         return sb.toString();  
