@@ -12,7 +12,7 @@ class Solution {
            if(misscount==k)return current;
 
         }
-        current++;                     //this increment will occur until the k valye reaches
+        current++;               //this increment will occur until the k valye reaches
      }
       return current;
     }
