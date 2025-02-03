@@ -8,7 +8,6 @@ class Solution {
             if(sum==goal){
                 count++;
             }
-            else if(sum > goal)break;
          }
        }
         return count;
